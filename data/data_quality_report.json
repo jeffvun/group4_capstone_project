@@ -1,0 +1,40 @@
+{
+  "n_rows_raw": 21948,
+  "n_duplicates": 30,
+  "missing_by_column": {
+    "date": 0,
+    "location_name": 0,
+    "temperature_2m_max": 42,
+    "temperature_2m_min": 0,
+    "temperature_2m_mean": 0,
+    "precipitation_sum": 84,
+    "rain_sum": 0,
+    "windspeed_10m_max": 0,
+    "et0_fao_evapotranspiration": 0
+  },
+  "missing_pct_by_column": {
+    "date": 0.0,
+    "location_name": 0.0,
+    "temperature_2m_max": 0.191,
+    "temperature_2m_min": 0.0,
+    "temperature_2m_mean": 0.0,
+    "precipitation_sum": 0.383,
+    "rain_sum": 0.0,
+    "windspeed_10m_max": 0.0,
+    "et0_fao_evapotranspiration": 0.0
+  },
+  "completeness_pct_by_location": {
+    "Machakos": 100.0,
+    "Meru": 100.0,
+    "Narok": 100.0,
+    "Nyeri": 100.0,
+    "Trans Nzoia (Kitale)": 100.0,
+    "Uasin Gishu (Eldoret)": 100.0
+  },
+  "outlier_counts_3xIQR": {
+    "temperature_2m_max": 0,
+    "temperature_2m_min": 0,
+    "precipitation_sum": 5006
+  },
+  "temp_max_lt_min_rows": 0
+}

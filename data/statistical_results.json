@@ -1,0 +1,154 @@
+{
+  "temperature_trend_by_region": {
+    "Machakos": {
+      "slope_c_per_year": 0.0253,
+      "p_value": 0.0003,
+      "r_squared": 0.817,
+      "significant_at_0.05": true,
+      "total_change_c_2015_2024": 0.23
+    },
+    "Meru": {
+      "slope_c_per_year": 0.0345,
+      "p_value": 0.0007,
+      "r_squared": 0.78,
+      "significant_at_0.05": true,
+      "total_change_c_2015_2024": 0.31
+    },
+    "Narok": {
+      "slope_c_per_year": 0.0297,
+      "p_value": 0.0006,
+      "r_squared": 0.792,
+      "significant_at_0.05": true,
+      "total_change_c_2015_2024": 0.27
+    },
+    "Nyeri": {
+      "slope_c_per_year": 0.0226,
+      "p_value": 0.0234,
+      "r_squared": 0.494,
+      "significant_at_0.05": true,
+      "total_change_c_2015_2024": 0.2
+    },
+    "Trans Nzoia (Kitale)": {
+      "slope_c_per_year": 0.0259,
+      "p_value": 0.0001,
+      "r_squared": 0.87,
+      "significant_at_0.05": true,
+      "total_change_c_2015_2024": 0.23
+    },
+    "Uasin Gishu (Eldoret)": {
+      "slope_c_per_year": 0.0338,
+      "p_value": 0.0019,
+      "r_squared": 0.721,
+      "significant_at_0.05": true,
+      "total_change_c_2015_2024": 0.3
+    }
+  },
+  "rainfall_reliability_by_region": {
+    "Machakos": {
+      "mean_annual_rain_mm": 423.6,
+      "cv": 0.279
+    },
+    "Meru": {
+      "mean_annual_rain_mm": 785.9,
+      "cv": 0.254
+    },
+    "Narok": {
+      "mean_annual_rain_mm": 535.7,
+      "cv": 0.194
+    },
+    "Nyeri": {
+      "mean_annual_rain_mm": 550.4,
+      "cv": 0.259
+    },
+    "Trans Nzoia (Kitale)": {
+      "mean_annual_rain_mm": 801.6,
+      "cv": 0.206
+    },
+    "Uasin Gishu (Eldoret)": {
+      "mean_annual_rain_mm": 655.7,
+      "cv": 0.257
+    }
+  },
+  "dry_spell_analysis_by_region": {
+    "Machakos": {
+      "longest_dry_spell_days": 148,
+      "dry_spells_10d_plus_count": 57
+    },
+    "Meru": {
+      "longest_dry_spell_days": 94,
+      "dry_spells_10d_plus_count": 66
+    },
+    "Narok": {
+      "longest_dry_spell_days": 119,
+      "dry_spells_10d_plus_count": 59
+    },
+    "Nyeri": {
+      "longest_dry_spell_days": 126,
+      "dry_spells_10d_plus_count": 64
+    },
+    "Trans Nzoia (Kitale)": {
+      "longest_dry_spell_days": 93,
+      "dry_spells_10d_plus_count": 63
+    },
+    "Uasin Gishu (Eldoret)": {
+      "longest_dry_spell_days": 113,
+      "dry_spells_10d_plus_count": 49
+    }
+  },
+  "heat_stress_days_by_region": {
+    "Machakos": {
+      "total_heat_stress_days_30C": 114,
+      "avg_heat_stress_days_per_year": 11.4
+    },
+    "Meru": {
+      "total_heat_stress_days_30C": 32,
+      "avg_heat_stress_days_per_year": 3.2
+    },
+    "Narok": {
+      "total_heat_stress_days_30C": 2,
+      "avg_heat_stress_days_per_year": 0.2
+    },
+    "Nyeri": {
+      "total_heat_stress_days_30C": 0,
+      "avg_heat_stress_days_per_year": 0.0
+    },
+    "Trans Nzoia (Kitale)": {
+      "total_heat_stress_days_30C": 10,
+      "avg_heat_stress_days_per_year": 1.0
+    },
+    "Uasin Gishu (Eldoret)": {
+      "total_heat_stress_days_30C": 0,
+      "avg_heat_stress_days_per_year": 0.0
+    }
+  },
+  "anova_rainfall_by_season": {
+    "f_statistic": 777.24,
+    "p_value": 0.0
+  },
+  "temp_precip_correlation_by_region": {
+    "Machakos": {
+      "pearson_r": 0.004,
+      "p_value": 0.825
+    },
+    "Meru": {
+      "pearson_r": 0.022,
+      "p_value": 0.1939
+    },
+    "Narok": {
+      "pearson_r": -0.006,
+      "p_value": 0.6971
+    },
+    "Nyeri": {
+      "pearson_r": 0.042,
+      "p_value": 0.0103
+    },
+    "Trans Nzoia (Kitale)": {
+      "pearson_r": 0.023,
+      "p_value": 0.1633
+    },
+    "Uasin Gishu (Eldoret)": {
+      "pearson_r": 0.014,
+      "p_value": 0.4023
+    }
+  }
+}
