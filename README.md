@@ -52,20 +52,19 @@ cd dashboard && streamlit run app.py
 
 ## Methodology summary
 
-1. **Retrieval** — one Open-Meteo `/v1/archive` call per region, 7 daily variables, 10 years.
-2. **Data quality assessment** — missing values, duplicates, 3×IQR outliers, calendar
+1. **Retrieval**: one Open-Meteo `/v1/archive` call per region, 7 daily variables, 10 years.
+2. **Data quality assessment**: missing values, duplicates, 3×IQR outliers, calendar
    completeness, and a max≥min logical-consistency check.
-3. **Cleaning** — de-duplication, linear interpolation for gaps, derived `season` and
+3. **Cleaning**: de-duplication, linear interpolation for gaps, derived `season` and
    `heat_stress_day` fields.
-4. **Statistical analysis** — (a) linear regression trend test per region, (b) one-way
+4. **Statistical analysis**: (a) linear regression trend test per region, (b) one-way
    ANOVA of rainfall across seasons, (c) Pearson correlation of temperature vs. rainfall.
-5. **Visualisation** — 6 charts (trend line, monthly boxplot, reliability scatter,
+5. **Visualisation**: 6 charts (trend line, monthly boxplot, reliability scatter,
    heat-stress bar, seasonal grouped bar, dry-spell bar), each justified in the notebook.
-6. **Dashboard** — Streamlit app with 3 KPI cards, 4+ interactive charts, region/year/season
+6. **Dashboard**: Streamlit app with 3 KPI cards, 4+ interactive charts, region/year/season
    filters, a geographic map, and a per-region drill-down.
 
 ## Group member contributions
-*(fill in with your own group's names and roles before submission)*
 
 | Member | Contribution |
 |---|---|
