@@ -68,8 +68,8 @@ cd dashboard && streamlit run app.py
 
 | Member | Contribution |
 |---|---|
-| — | Data retrieval & cleaning |
-| — | Statistical analysis |
-| — | Visualisation & dashboard |
-| — | Presentation & oral defence prep |
-| — | Report writing & GitHub repo management |
+| Esther Nyawira | Data retrieval & cleaning |
+| Allan Bett | Statistical analysis |
+| Daniel Ndungu | Visualisation & dashboard |
+| All | Presentation & oral defence prep |
+| Joseph Vunanga | EDA, Report writing & GitHub repo management |
