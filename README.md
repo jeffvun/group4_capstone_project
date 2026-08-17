@@ -66,10 +66,10 @@ cd dashboard && streamlit run app.py
 
 ## Group member contributions
 
-| Member | Contribution |
-|---|---|
-| Esther Nyawira | Data retrieval & cleaning |
-| Allan Bett | Statistical analysis |
-| Daniel Ndungu | Visualisation & dashboard |
-| All | Presentation & oral defence prep |
-| Joseph Vunanga | EDA, Report writing & GitHub repo management |
+| Member | Student Number | Contribution |
+|---|---|---|
+| Esther Nyawira Ndegwa | 111530 | Data retrieval & cleaning |
+| Allan Bett | 101191 | Statistical analysis |
+| Daniel Ndung’u Gichuru | 222596 | Visualisation & dashboard |
+| All | - | Presentation & oral defence prep |
+| Joseph Dua Vunanga | 136371 | EDA, Report writing & GitHub repo management |
